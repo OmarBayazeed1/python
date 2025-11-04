@@ -18,11 +18,4 @@ class Queue:
     def __str__(self):
         return str(list(self.queue))
 
-q1=Queue()
-q1.enqueue(1)
-q1.enqueue(3)
-q1.enqueue(4)
-print(q1)
-print(q1.dequeue())
-print(q1)
-print(q1.size())
+
